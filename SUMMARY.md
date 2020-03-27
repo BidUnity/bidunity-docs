@@ -2,9 +2,9 @@
 
 * [BidUnity Help Center](README.md)
 
-## Drawings
+## Elevation Drawings
 
-* [Elevation Drawings](drawings/elevation-drawings.md)
+* [Elevation Drawings](elevation-drawings/elevation-drawings.md)
 
 ## Cut List
 
