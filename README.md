@@ -4,7 +4,7 @@ Getting Started
 
 Projects & Proposals
 
-[Elevation Drawings](elevation-drawings/elevation-drawings.md)
+[Elevation Drawings](drawings/elevation-drawings.md)
 
 Proposal Review
 
