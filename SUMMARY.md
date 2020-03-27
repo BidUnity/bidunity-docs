@@ -17,5 +17,6 @@
 
 ## Supplier Integrations
 
-* [Untitled](supplier-integrations/untitled.md)
+* [Quote Request API](supplier-integrations/untitled.md)
+* [Quote Request](quote-request.md)
 
