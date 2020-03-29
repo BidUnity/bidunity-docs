@@ -120,7 +120,28 @@ Could not find a cake matching this query.
     "project_name": “The Project Name”,
     "proposal_id": “5e383f71e8c7250026e29f80”,
     "proposal_name": “The Proposal Name”,
-    "parts": [PartObject],
+    "parts": [{
+        id: “407f191e810c19729de860ec”,
+        name: “Trulite 3101 Head/Sill/Jamb”,
+        part_number: “3101”,
+        finish_type: “Class 1 Anodized”,
+        finish_color: “Dark Bronze”,
+        finish_multiplier: 1.0,
+        total_cost: 100.00,
+        package_unit_cost: 20.00,
+        package_quantity_to_order: 5,
+        item_measurement_type: “stock_length”,
+        items_per_package: 1,   # Lengths sold individually
+        item_stock_size: 288,   # 288” stock lengths
+        item_size_unit_of_measure: “in”,  // Inches
+        sizes: [{
+            component: “Head”,
+            length: 29.125   # inches
+        },{
+            component: “Sill”,
+            length: 29.125   # inches
+        }]
+    }],
     "doors": [DoorObject],
     "total_cost": 3820.48
 }

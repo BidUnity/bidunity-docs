@@ -132,6 +132,27 @@ Some definitions before we get started:
       <td style="text-align:left">The units of measure for the item_stock_size. Possible values: <code>item</code>, <code>in</code> (inches), <code>sqft</code> (square
         feet), <code>ml</code> (milliliters)</td>
     </tr>
+    <tr>
+      <td style="text-align:left"><code>sizes</code>
+      </td>
+      <td style="text-align:left">array</td>
+      <td style="text-align:left">
+        <p>The array of part sizes needed. This will vary based on the unit of measure.</p>
+        <ul>
+          <li>For <code>item</code>, the sizes array will be <code>null</code>.</li>
+          <li>For <code>stock_length</code>, each size will contain a <code>length </code>field
+            with the number of inches for that piece.</li>
+          <li>For <code>block_area</code>, each size will have fields:
+            <ul>
+              <li><code>width</code> - the actual glass width needed in inches</li>
+              <li><code>height</code> - the actual glass height needed in inches</li>
+              <li><code>quantity</code> - the number of pieces of glass needed at this size</li>
+            </ul>
+          </li>
+          <li>For <code>ml</code>, the sizes array will be <code>null</code>.</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>### Examples
 
@@ -199,12 +220,10 @@ Purchasing 5 stock lengths of framing at 288” per stock length.
     item_measurement_type: “stock_length”,
     items_per_package: 1,   # Lengths sold individually
     item_stock_size: 288,   # 288” stock lengths
-    item_size_unit_of_measure: “in”,  // Inches
+    item_size_unit_of_measure: “in”,   # Inches
     sizes: [{  // Array of sizes needed
-        component: “Head”,
         length: 29.125   # inches
     },{
-        component: “Sill”,
         length: 29.125   # inches
     }]
 }
@@ -230,10 +249,8 @@ Purchasing 2 boxes of stock lengths, with each box contains 4 lengths at 288” 
     item_stock_size: 288   # 288” stock lengths
     item_size_unit_of_measure: “in”
     sizes: [{
-        component: “Head”,
         length: 29.125   # inches
     },{
-        component: “Sill”,
         length: 29.125   # inches
     }]
 }
@@ -258,11 +275,37 @@ Purchasing 300 block area square feet of glass.
     items_per_package: 1
     item_stock_size: 1
     item_size_unit_of_measure: “sqft”
-    sizes: [{  // Array of the actual (not block) glass sizes needed
-        width: 28.63,   // inches
-        height: 12.63,  // inches
-        quantity: 3
+    sizes: [{   # Array of the block sizes needed
+        width: 28.63,    # inches
+        height: 12.63,   # inches
+        quantity: 3      # 3 pieces of glass at this size
     }]
 }
 ```
+
+#### Example \#5: Caulking
+
+Purchasing 2 boxes of caulking, with each box containing 16 sausages at 500 ml per sausage, for a total of 32 sausages.
+
+```yaml
+{
+    id: “407f191e810c19729de860ee”,
+    name: “Caulking: Perimeter Sealant, Sausages (By Volume)”,
+    part_number: “Contractors Weather Seal”,
+    finish_type: null,
+    finish_color: null,
+    finish_multiplier: 1.0,
+    total_cost: 100.00,
+    package_unit_cost: 50.00,
+    package_quantity_to_order: 2,
+    item_measurement_type: “container”,
+    items_per_package: 16,
+    item_stock_size: 500,
+    item_size_unit_of_measure: “ml”,
+    sizes: null
+}
+
+```
+
+
 
