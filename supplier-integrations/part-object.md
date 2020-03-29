@@ -154,9 +154,9 @@ Some definitions before we get started:
       </td>
     </tr>
   </tbody>
-</table>### Examples
+</table>## Examples
 
-#### Example \#1: Per each \(i.e. door closer\)
+### Example \#1: Per each \(i.e. door closer\)
 
 Purchasing 5 door closers, purchased individually.
 
@@ -179,7 +179,7 @@ Purchasing 5 door closers, purchased individually.
 }
 ```
 
-#### Example \#2: Box of screws
+### Example \#2: Box of screws
 
 Purchasing 5 boxes of screws, with each box containing 200 screws.
 
@@ -202,7 +202,7 @@ Purchasing 5 boxes of screws, with each box containing 200 screws.
 }
 ```
 
-#### Example \#3A: Stock lengths sold individually
+### Example \#3A: Stock lengths sold individually
 
 Purchasing 5 stock lengths of framing at 288” per stock length.
 
@@ -229,7 +229,7 @@ Purchasing 5 stock lengths of framing at 288” per stock length.
 }
 ```
 
-#### Example \#3B: Stock lengths sold as a group
+### Example \#3B: Stock lengths sold as a group
 
 Purchasing 2 boxes of stock lengths, with each box contains 4 lengths at 288” for a total of 8 stock lengths.
 
@@ -256,7 +256,7 @@ Purchasing 2 boxes of stock lengths, with each box contains 4 lengths at 288” 
 }
 ```
 
-#### Example \#4: Glass
+### Example \#4: Glass
 
 Purchasing 300 block area square feet of glass.
 
@@ -283,7 +283,7 @@ Purchasing 300 block area square feet of glass.
 }
 ```
 
-#### Example \#5: Caulking
+### Example \#5: Caulking
 
 Purchasing 2 boxes of caulking, with each box containing 16 sausages at 500 ml per sausage, for a total of 32 sausages.
 
