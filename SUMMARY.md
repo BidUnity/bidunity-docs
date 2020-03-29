@@ -13,10 +13,11 @@
 ## System Configurations
 
 * [Untitled](system-configurations/untitled.md)
-* [Back to BidUnity](https://bidunity.com)
 
-## Supplier Integrations
+## Supplier API <a id="supplier-integrations"></a>
 
 * [Quote Request API](supplier-integrations/quote-request.md)
+* [Quote Response API](supplier-integrations/quote-response-api.md)
 * [The Part Object](supplier-integrations/part-object.md)
+* [Back to BidUnity](https://bidunity.com)
 
