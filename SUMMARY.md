@@ -16,10 +16,10 @@
 
 ## Supplier API
 
+* [API Overview](supplier-api/api-overview.md)
 * [Quote Request API](supplier-api/quote-request.md)
 * [Quote Response API](supplier-api/quote-response-api.md)
 * [Reference](supplier-api/api-reference/README.md)
-  * [API Overview](supplier-api/api-reference/api-overview.md)
   * [Objects](supplier-api/api-reference/api-objects/README.md)
     * [Part Object](supplier-api/api-reference/api-objects/part-object.md)
     * [Door Object](supplier-api/api-reference/api-objects/door-object.md)

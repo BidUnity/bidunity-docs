@@ -29,7 +29,7 @@ Authentication token to track down who is emptying our stocks.
 
 {% api-method-body-parameters %}
 {% api-method-parameter name="request\_id" type="string" required=true %}
-A random, unique id for the quote. This must be sent back to BidUnity when responding with the quote.
+A random, unique identifier for the quote. This must be sent back to BidUnity when responding with the quote.
 {% endapi-method-parameter %}
 
 {% api-method-parameter type="string" name="request\_type" required=true %}
