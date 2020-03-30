@@ -4,14 +4,20 @@ description: >-
   API.
 ---
 
-# The Part Object
+# Part Object
+
+## Overview
 
 The Part object can represent many different types of items, such as items purchased individually, in a box, as a stock length, area, or volume. But no matter how the part is purchased, it has the same JSON object structure.
+
+## Terminology
 
 Some definitions before we get started:
 
 * **Package** is the thing that is being purchased.
 * A package can contain a **single item** or a **group of items**.
+
+## **Attributes**
 
 <table>
   <thead>
@@ -26,7 +32,7 @@ Some definitions before we get started:
       <td style="text-align:left"><code>id</code>
       </td>
       <td style="text-align:left">string</td>
-      <td style="text-align:left">BidUnity&apos;s unique id for the part.</td>
+      <td style="text-align:left">The unique identifier for the part.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>name</code>
@@ -44,22 +50,22 @@ Some definitions before we get started:
       <td style="text-align:left"><code>finish_type</code>
       </td>
       <td style="text-align:left">string</td>
-      <td style="text-align:left">The metal finish for the part, or null if not applicable. See Finish Types
-        (TODO link)</td>
+      <td style="text-align:left">The metal finish for the part, or null if not applicable. See <a href="finish-types.md">Finish Types</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"><code>finish_color</code>
       </td>
       <td style="text-align:left">string</td>
-      <td style="text-align:left">The finish color for the part, or null if not applicable. See Finish Colors
-        (TODO link)</td>
+      <td style="text-align:left">The finish color for the part, or null if not applicable. See <a href="finish-colors.md">Finish Colors</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"><code>finish_multiplier</code>
       </td>
       <td style="text-align:left">number</td>
       <td style="text-align:left">A value to multiply against the configured finish price to calculate the
-        cost for the part. This defaults to 1.0 but can be modified by users when
+        cost for the part. This defaults to 1.0 but can be changed by users when
         creating the proposal.</td>
     </tr>
     <tr>

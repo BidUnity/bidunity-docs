@@ -18,6 +18,8 @@
 
 * [Quote Request API](supplier-integrations/quote-request.md)
 * [Quote Response API](supplier-integrations/quote-response-api.md)
-* [The Part Object](supplier-integrations/part-object.md)
+* [Part Object](supplier-integrations/part-object.md)
+* [Finish Types](supplier-integrations/finish-types.md)
+* [Finish Colors](supplier-integrations/finish-colors.md)
 * [Back to BidUnity](https://bidunity.com)
 
