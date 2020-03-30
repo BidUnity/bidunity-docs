@@ -6,6 +6,8 @@ description: >-
 
 # Quote Request API
 
+## Overview
+
 BidUnity can send a quote request to a supplier through a RESTful web service. The supplier must have an endpoint setup to receive the request.
 
 {% api-method method="post" host="https://your-supplier-site.com" path="/v1/quote/request" %}
