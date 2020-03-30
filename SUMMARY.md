@@ -14,13 +14,19 @@
 
 * [Untitled](system-configurations/untitled.md)
 
-## Supplier API <a id="supplier-integrations"></a>
+## Supplier API
 
-* [Quote Request API](supplier-integrations/quote-request.md)
-* [Quote Response API](supplier-integrations/quote-response-api.md)
-* [Part Object](supplier-integrations/part-object.md)
-* [Door Object](supplier-integrations/door-object.md)
-* [Finish Types](supplier-integrations/finish-types.md)
-* [Finish Colors](supplier-integrations/finish-colors.md)
+* [Quote Request API](supplier-api/quote-request.md)
+* [Quote Response API](supplier-api/quote-response-api.md)
+* [Reference](supplier-api/api-reference/README.md)
+  * [API Overview](supplier-api/api-reference/api-overview.md)
+  * [Objects](supplier-api/api-reference/api-objects/README.md)
+    * [Part Object](supplier-api/api-reference/api-objects/part-object.md)
+    * [Door Object](supplier-api/api-reference/api-objects/door-object.md)
+  * [Types](supplier-api/api-reference/api-types/README.md)
+    * [Door Frame Component Types](supplier-api/api-reference/api-types/door-frame-component-types.md)
+    * [Door Leaf Component Types](supplier-api/api-reference/api-types/door-leaf-component-types.md)
+    * [Finish Colors Types](supplier-api/api-reference/api-types/finish-color-types.md)
+    * [Finish Types](supplier-api/api-reference/api-types/finish-types.md)
 * [Back to BidUnity](https://bidunity.com)
 
