@@ -6,7 +6,7 @@ description: >-
 
 # Quote Response API
 
-{% api-method method="post" host="" path="" %}
+{% api-method method="post" host="https://bidunity.com/" path="" %}
 {% api-method-summary %}
 Quote Response Information
 {% endapi-method-summary %}

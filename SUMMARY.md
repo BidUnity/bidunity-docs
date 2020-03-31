@@ -16,7 +16,7 @@
 
 ## Supplier API
 
-* [API Overview](supplier-api/api-overview.md)
+* [Introduction](supplier-api/api-overview.md)
 * [Quote Request API](supplier-api/quote-request.md)
 * [Quote Response API](supplier-api/quote-response-api.md)
 * [Reference](supplier-api/api-reference/README.md)
