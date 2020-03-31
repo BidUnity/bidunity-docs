@@ -2,16 +2,16 @@
 description: The component types supported for door frames.
 ---
 
-# Door Frame Component Types
+# Door Frame Components
 
-* doorFrameComponentType.JAMB
-* doorFrameComponentType.MULLION
-* doorFrameComponentType.DOOR\_HEAD
-* doorFrameComponentType.DOOR\_SWEEP
-* doorFrameComponentType.THRESHOLD
-* doorFrameComponentType.TRANSOM\_JAMB
-* doorFrameComponentType.TRANSOM\_MULLION
-* doorFrameComponentType.TRANSOM\_DOOR\_HEAD
-* doorFrameComponentType.TRANSOM\_FRAME\_HEAD
-* doorFrameComponentType.TRANSOM\_GLASS
+* `doorFrameComponentType.JAMB`
+* `doorFrameComponentType.MULLION`
+* `doorFrameComponentType.DOOR_HEAD`
+* `doorFrameComponentType.DOOR_SWEEP`
+* `doorFrameComponentType.THRESHOLD`
+* `doorFrameComponentType.TRANSOM_JAMB`
+* `doorFrameComponentType.TRANSOM_MULLION`
+* `doorFrameComponentType.TRANSOM_DOOR_HEAD`
+* `doorFrameComponentType.TRANSOM_FRAME_HEAD`
+* `doorFrameComponentType.TRANSOM_GLASS`
 

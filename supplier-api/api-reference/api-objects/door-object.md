@@ -132,31 +132,31 @@ The Door object contains the information for the door frame and leaf.
       <td style="text-align:left"><code>leaf</code>
       </td>
       <td style="text-align:left">object</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">An object representing the door leaf.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>leaf.name</code>
       </td>
       <td style="text-align:left">string</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">The name of the door leaf.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>leaf.components</code>
       </td>
       <td style="text-align:left">array</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">The component objects making up the door leaf.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>leaf.components.name</code>
       </td>
       <td style="text-align:left">string</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">The name of the leaf component.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>leaf.components.type</code>
       </td>
       <td style="text-align:left">string</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">The type of the leaf component.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>leaf.components.order_code</code>

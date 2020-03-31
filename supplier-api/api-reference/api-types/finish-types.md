@@ -4,8 +4,6 @@ description: The list of finish types supported.
 
 # Finish Types
 
-The following finish types are supported by BidUnity.
-
 * **AAMA 2603 Paint**
 * **AAMA 2604 Paint \(Liquid\)**
 * **AAMA 2604 Paint \(Powder\)**

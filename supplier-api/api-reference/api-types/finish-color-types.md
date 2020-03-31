@@ -2,9 +2,7 @@
 description: The list of finish colors supported.
 ---
 
-# Finish Colors Types
-
-The following finish colors are supported:
+# Finish Colors
 
 * **Black**
 * **Bronze**
