@@ -1,7 +1,7 @@
 ---
 description: >-
-  Allows suppliers to respond with a quote to a contractor through a web service
-  API. This API call can be made in response to a quote request.
+  Allows suppliers to respond with a quote through a web service API. This API
+  call is made after receiving a quote request.
 ---
 
 # Quote Response API
