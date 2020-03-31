@@ -54,15 +54,15 @@ The person that created the quote, if applicable. Can contain strings for `name`
 The date that the materials can be delivered. This is a timestamp in milliseconds.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="" type="string" required=false %}
+{% api-method-parameter name="contact\_name" type="string" required=false %}
+The name of the person to contact with questions.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="contact\_email" type="string" required=false %}
 
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="" type="string" required=false %}
+{% api-method-parameter name="contact\_phone" type="string" required=false %}
 
 {% endapi-method-parameter %}
 

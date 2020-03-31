@@ -21,12 +21,6 @@ BidUnity will make a POST request to the supplier's endpoint when a user starts 
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
 {% api-method-body-parameters %}
 {% api-method-parameter name="request\_id" type="string" required=true %}
 A random, unique identifier for the quote. This must be sent back to BidUnity when responding with the quote.
@@ -81,21 +75,21 @@ The total cost that BidUnity calculated for all parts and doors in the quote req
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+Quote request successfully received by supplier.
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+{ }
 ```
 {% endapi-method-response-example %}
 
-{% api-method-response-example httpCode=404 %}
+{% api-method-response-example httpCode=500 %}
 {% api-method-response-example-description %}
-Could not find a cake matching this query.
+If an error occurs, include a description of the error with the response.
 {% endapi-method-response-example-description %}
 
 ```
-{    "message": "Ain't no cake like that."}
+{    "error": "Description of the error that occurred."}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
