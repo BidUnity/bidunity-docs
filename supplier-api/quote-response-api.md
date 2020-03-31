@@ -6,13 +6,13 @@ description: >-
 
 # Quote Response API
 
-{% api-method method="post" host="https://bidunity.com/" path="" %}
+{% api-method method="post" host="https://bidunity.com/" path="/v1/quote/response" %}
 {% api-method-summary %}
 Quote Response Information
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Sends a quote response to BidUnity for a particular quote request.
 {% endapi-method-description %}
 
 {% api-method-spec %}
