@@ -150,9 +150,9 @@ Some definitions before we get started:
             with the number of inches for that piece.</li>
           <li>For <code>block_area</code>, each size will have fields:
             <ul>
-              <li><code>width</code> - the actual glass width needed in inches</li>
-              <li><code>height</code> - the actual glass height needed in inches</li>
-              <li><code>quantity</code> - the number of pieces of glass needed at this size</li>
+              <li><code>width</code> the actual glass width needed in inches</li>
+              <li><code>height</code> the actual glass height needed in inches</li>
+              <li><code>quantity</code> the number of pieces of glass needed at this size</li>
             </ul>
           </li>
           <li>For <code>ml</code>, the sizes array will be <code>null</code>.</li>
@@ -174,8 +174,8 @@ Purchasing 5 door closers, purchased individually.
     finish_type: “Class 1 Anodized”,
     finish_color: “Dark Bronze”,
     finish_multiplier: 1.0,
-    total_cost: 100.00,
-    package_unit_cost: 20.00,
+    total_cost: 250.00,
+    package_unit_cost: 50.00,
     package_quantity_to_order: 5,
     item_measurement_type: “each”,
     items_per_package: 1,  # Sold individually
@@ -210,7 +210,7 @@ Purchasing 5 boxes of screws, with each box containing 200 screws.
 
 ### Example \#3A: Stock lengths sold individually
 
-Purchasing 5 stock lengths of framing at 288” per stock length.
+Purchasing 2 stock lengths of framing at 288” per stock length.
 
 ```yaml
 {
@@ -227,17 +227,19 @@ Purchasing 5 stock lengths of framing at 288” per stock length.
     items_per_package: 1,   # Lengths sold individually
     item_stock_size: 288,   # 288” stock lengths
     item_size_unit_of_measure: “in”,   # Inches
-    sizes: [{  // Array of sizes needed
-        length: 29.125   # inches
+    sizes: [{  # Array of sizes needed
+        length: 62,  # inches
+        quantity: 5
     },{
-        length: 29.125   # inches
+        length: 29.125,  # inches
+        quantity: 3
     }]
 }
 ```
 
 ### Example \#3B: Stock lengths sold as a group
 
-Purchasing 2 boxes of stock lengths, with each box contains 4 lengths at 288” for a total of 8 stock lengths.
+Purchasing 2 boxes of stock lengths, with each box containing 4 lengths at 288” for a total of 8 stock lengths.
 
 ```yaml
 {
@@ -247,43 +249,45 @@ Purchasing 2 boxes of stock lengths, with each box contains 4 lengths at 288” 
     finish_type: “Class 1 Anodized”,
     finish_color: “Dark Bronze”,
     finish_multiplier: 1.0,
-    total_cost: 100.00,
-    package_unit_cost: 50.00,
+    total_cost: 400.00,
+    package_unit_cost: 200.00,
     package_quantity_to_order: 2,
     item_measurement_type: “stock_length”
     items_per_package: 4   # 4 stock lengths per box
     item_stock_size: 288   # 288” stock lengths
     item_size_unit_of_measure: “in”
     sizes: [{
-        length: 29.125   # inches
+        length: 91,  # inches
+        quantity: 12
     },{
-        length: 29.125   # inches
+        length: 29.125,  # inches
+        quantity: 4
     }]
 }
 ```
 
 ### Example \#4: Glass
 
-Purchasing 300 block area square feet of glass.
+Purchasing 1,260 block area square feet of glass.
 
 ```yaml
 {
     id: “407f191e810c19729de860ed”,
-    name: “Glass: 1-5/16" Overall: 1/4" Temp X 1/2" Air Space X 1/4" HS X 0.090 PVB X 1/4" HS”,
+    name: “Glass 1-5/16" Overall: 1/4" Temp X 1/2" Air Space X 1/4" HS X 0.090 PVB X 1/4" HS”,
     part_number: “1/4" Clear Temp X 1/2" Air Space X 1/4" Clear HS X 0.090 PVB X 1/4" Clear HS”,
     finish_type: null,
     finish_color: null,
     finish_multiplier: 1.0,
-    total_cost: 3000.00,
-    package_unit_cost: 10.00,
-    package_quantity_to_order: 300
+    total_cost: 12600.00,
+    package_unit_cost: 10.51,
+    package_quantity_to_order: 1260
     item_measurement_type: “block_area”
     items_per_package: 1
     item_stock_size: 1
     item_size_unit_of_measure: “sqft”
-    sizes: [{   # Array of the block sizes needed
-        width: 28.63,    # inches
-        height: 12.63,   # inches
+    sizes: [{   # Array of the actual glass sizes needed (not block sizes)
+        width: 28.63,    # inches, actual glass width
+        height: 12.63,   # inches, actual glass height
         quantity: 3      # 3 pieces of glass at this size
     }]
 }
@@ -296,7 +300,7 @@ Purchasing 2 boxes of caulking, with each box containing 16 sausages at 500 ml p
 ```yaml
 {
     id: “407f191e810c19729de860ee”,
-    name: “Caulking: Perimeter Sealant, Sausages (By Volume)”,
+    name: “Caulking Perimeter Sealant, Sausages (By Volume)”,
     part_number: “Contractors Weather Seal”,
     finish_type: null,
     finish_color: null,
