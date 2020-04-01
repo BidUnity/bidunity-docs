@@ -4,7 +4,7 @@ description: >-
   human interaction.
 ---
 
-# Quote Request API
+# Quote Request
 
 ## Overview
 
