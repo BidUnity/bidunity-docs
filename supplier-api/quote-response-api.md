@@ -73,7 +73,7 @@ The phone number for the point of contact.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="file" type="string" required=false %}
-The PDF file of the quote.
+The PDF file of the quote. The MIME type of the file must be `application/pdf`. Only PDF files are supported.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="" type="string" required=false %}
@@ -105,4 +105,11 @@ A problem occurred
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
+
+```text
+curl https://api.bidunity.com/v1/files \
+  -u your_api_key: \
+  -F file="@/path/to/a/file.pdf" \
+  -F purpose=dispute_evidence
+```
 
