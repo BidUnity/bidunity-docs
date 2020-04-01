@@ -12,7 +12,7 @@ Quote Response Information
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Sends a quote response to BidUnity for a particular quote request.
+Sends a quote response to BidUnity for a particular quote request. A PDF file of the quote may also be included. The `Content-Type` of this request must be `multipart/form-data` in order to accept a file.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -72,8 +72,8 @@ The email address for the point of contact.
 The phone number for the point of contact.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="" type="string" required=false %}
-
+{% api-method-parameter name="file" type="string" required=false %}
+The PDF file of the quote.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="" type="string" required=false %}
