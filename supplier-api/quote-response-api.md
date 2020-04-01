@@ -17,6 +17,70 @@ Sends a quote response to BidUnity for a particular quote request.
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Content-Type" type="string" required=false %}
+multipart/form-data
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="request\_id" type="string" required=true %}
+The unique identifier of the quote request this is responding to.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="request\_type" type="string" required=true %}
+What this is in response to: `quote`
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="needs\_confirmation" type="boolean" required=false %}
+Whether confirmation is needed by staff.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="notes" type="string" required=false %}
+Any notes or exceptions to convey for the quote.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="total\_amount" type="number" required=false %}
+The total amount of the quote. This should include everything, including tax and shipping, if applicable.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="tax" type="number" required=false %}
+The estimated tax for the materials, if applicable.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="shipping\_cost" type="number" required=false %}
+The estimated shipping cost for the materials, if applicable.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="delivery\_date" type="number" required=false %}
+The estimated date that the materials could be delivered. This is a timestamp in milliseconds.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="quoted\_by" type="string" required=false %}
+Name of the person that created the quote, if applicable.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="contact\_name" type="string" required=false %}
+The name of the person to contact with questions.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="contact\_email" type="string" required=false %}
+The email address for the point of contact.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="contact\_phone" type="string" required=false %}
+The phone number for the point of contact.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+
 {% api-method-body-parameters %}
 {% api-method-parameter name="request\_id" type="string" required=true %}
 The unique identifier of the quote request this is responding to.
@@ -64,18 +128,6 @@ The email address for the point of contact.
 
 {% api-method-parameter name="contact\_phone" type="string" required=false %}
 The phone number for the point of contact.
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="" type="string" required=false %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="" type="string" required=false %}
-
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
