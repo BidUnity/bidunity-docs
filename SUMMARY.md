@@ -8,7 +8,7 @@
 
 ## Cut List
 
-* [Untitled](cut-list/untitled.md)
+* [Cut List](cut-list/cut-list.md)
 
 ## System Configurations
 
