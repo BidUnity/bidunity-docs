@@ -96,7 +96,7 @@ If an error occurs, include a description of the error with the response.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-#### Example quote request body
+### Example quote request body
 
 ```yaml
 {
@@ -142,4 +142,6 @@ If an error occurs, include a description of the error with the response.
     "total_cost": 3820.48
 }
 ```
+
+See the [Part object](api-reference/api-objects/part-object.md) and [Door object](api-reference/api-objects/door-object.md) for more information on these objects.
 
