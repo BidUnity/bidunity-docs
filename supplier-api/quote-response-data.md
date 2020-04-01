@@ -12,7 +12,7 @@ Quote Response Information
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Sends a quote response to BidUnity for a particular quote request.
+Sends a quote to BidUnity in response to a quote request.
 {% endapi-method-description %}
 
 {% api-method-spec %}
