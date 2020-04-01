@@ -59,11 +59,11 @@ The name of the person to contact with questions.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="contact\_email" type="string" required=false %}
-
+The email address for the point of contact.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="contact\_phone" type="string" required=false %}
-
+The phone number for the point of contact.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="" type="string" required=false %}
@@ -83,11 +83,21 @@ The name of the person to contact with questions.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-
+Quote successfully received by BidUnity.
 {% endapi-method-response-example-description %}
 
 ```
+{ }
+```
+{% endapi-method-response-example %}
 
+{% api-method-response-example httpCode=500 %}
+{% api-method-response-example-description %}
+A problem occurred 
+{% endapi-method-response-example-description %}
+
+```
+{ "error": "Description of the error that occurred." }
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}

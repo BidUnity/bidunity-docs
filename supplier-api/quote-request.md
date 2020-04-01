@@ -89,7 +89,7 @@ If an error occurs, include a description of the error with the response.
 {% endapi-method-response-example-description %}
 
 ```
-{    "error": "Description of the error that occurred."}
+{ "error": "Description of the error that occurred." }
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
