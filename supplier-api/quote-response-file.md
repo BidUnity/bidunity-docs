@@ -28,10 +28,6 @@ multipart/form-data
 The unique identifier of the quote request this is responding to.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="request\_type" type="string" required=true %}
-What this is in response to: `quote`
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="file" type="string" required=true %}
 The PDF file of the quote. The MIME type of the file must be `application/pdf`. Only PDF files are supported.
 {% endapi-method-parameter %}
@@ -66,7 +62,7 @@ A problem occurred
 
 ```bash
 curl https://api.bidunity.com/v1/quote/response/file \
-  -u "your_api_key": \
+  -u your_api_key: \
   -F request_id="d770d1d3-72f6-48b7-b24b-fea1c8a2da77" \
   -F request_type="quote"
   -F file="@/path/to/file.pdf"
