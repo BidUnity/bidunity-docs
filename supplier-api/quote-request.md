@@ -8,7 +8,7 @@ description: >-
 
 ## Overview
 
-BidUnity can send a quote request to a supplier through a RESTful web service. The supplier must have an endpoint setup to receive the request.
+BidUnity can send a quote request to a supplier through a RESTful web service. The supplier must have a webhook endpoint setup to receive the request. Contact [support@bidunity.com](mailto:support@bidunity.com) to setup this endpoint.
 
 {% api-method method="post" host="https://your-supplier-site.com" path="/v1/quote/request" %}
 {% api-method-summary %}
