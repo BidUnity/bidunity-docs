@@ -2,6 +2,10 @@
 
 * [BidUnity Help Center](README.md)
 
+## Getting Started
+
+* [Getting Started](getting-started/getting-started.md)
+
 ## Drawings
 
 * [Elevation Drawings](drawings/elevation-drawings.md)
