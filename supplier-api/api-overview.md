@@ -34,3 +34,7 @@ All API requests must be made over HTTPS and include your API key for authentica
 
 Webhooks are part of the supplier API in which BidUnity notifies the supplier of events, such as when a quote request is made to them. In this case, BidUnity will make a request to the supplier at a URL of their choosing with the contents of the quote request. Suppliers must contact [support@bidunity.com](mailto:support@bidunity.com) to configure their endpoints.
 
+### Verifying Webhooks
+
+When BidUnity makes a request to your webhook endpoints, it will include an HTTP header `BidUnity-Key` containing your API key. You can use this key to verify that the request came from BidUnity.
+
