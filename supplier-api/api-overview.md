@@ -2,7 +2,7 @@
 description: Allows suppliers to automate quote requests without any human interaction.
 ---
 
-# Introduction
+# API Overview
 
 The BidUnity Supplier API is a set of web services that allow quote requests to be sent directly to suppliers and processed automatically, potentially without any human interaction. 
 
