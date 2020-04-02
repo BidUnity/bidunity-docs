@@ -17,7 +17,7 @@ The BidUnity Supplier API is a set of web services based on [REST](https://en.wi
 {% tabs %}
 {% tab title="BASE URL" %}
 ```text
-https://api.bidunity.com
+https://bidunity.com/supplier/api
 ```
 {% endtab %}
 {% endtabs %}
