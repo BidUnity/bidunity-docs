@@ -1,5 +1,7 @@
 ---
-description: Allows suppliers to automate quote requests without any human interaction.
+description: >-
+  Provides a set of web services for suppliers to integrate with to automate
+  quote requests.
 ---
 
 # API Overview
@@ -8,11 +10,11 @@ The BidUnity Supplier API is a set of web services that allow quote requests to 
 
 Suppliers must implement a REST endpoint to receive quote requests with full parts lists and door configurations, and make a web service call to respond with the quote itself.
 
-The API will be expanded to include orders in the future. As new features are added, new verions of the api will become available.
+The API will be expanded to include orders in the future. As new features are added, new verions of the API will become available.
 
 ## Technical Overview
 
-The BidUnity Supplier API is a set of web services based on [REST](https://en.wikipedia.org/wiki/Representational_state_transfer). The API accepts [form-encoded](https://en.wikipedia.org/wiki/POST_%28HTTP%29#Use_for_submitting_web_forms) request bodies and returns [JSON-encoded](https://www.json.org) response bodies.
+The BidUnity Supplier API is a set of web services based on [REST](https://en.wikipedia.org/wiki/Representational_state_transfer). The API accepts [JSON-encoded](https://www.json.org) request bodies and returns JSON-encoded response bodies.
 
 {% tabs %}
 {% tab title="BASE URL" %}
@@ -24,7 +26,7 @@ https://bidunity.com/supplier/api
 
 ## Authentication
 
-The BidUnity API uses API keys to authenticate requests. Suppliers must contact [support@bidunity.com](mailto:support@bidunity.com) to request an API key.
+The Supplier API uses API keys to authenticate requests. Suppliers must contact [support@bidunity.com](mailto:support@bidunity.com) to request an API key.
 
 Authentication is performed using [HTTP Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication). Provide your API key as the basic auth username without providing a password.
 
@@ -36,5 +38,5 @@ Webhooks are part of the supplier API in which BidUnity notifies the supplier of
 
 ### Verifying Webhooks
 
-When BidUnity makes a request to your webhook endpoints, it will include an HTTP header `BidUnity-Key` containing your API key. You can use this key to verify that the request came from BidUnity.
+When BidUnity makes a request to your webhook endpoints, it will include an HTTP header `BidUnity-Key` containing your API Webhook key. You can use this key to verify that the request came from BidUnity.
 
