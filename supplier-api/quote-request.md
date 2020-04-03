@@ -22,8 +22,12 @@ BidUnity will make a POST request to the supplier's endpoint when a user starts 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-headers %}
-{% api-method-parameter name="BidUnity-Key" type="string" required=false %}
-Contains your API key to verify that the request came from BidUnity.
+{% api-method-parameter name="Content-type" type="string" required=false %}
+`application/json`
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="BidUnity-Key" type="string" required=true %}
+Contains your Webhook key to verify that the request came from BidUnity.
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 

@@ -17,6 +17,16 @@ Sends a quote to BidUnity in response to a quote request.
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Must contain your API key as Base64 encoded string.
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Content-type" type="string" required=true %}
+`application/json`
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
 {% api-method-body-parameters %}
 {% api-method-parameter name="request\_id" type="string" required=true %}
 The unique identifier of the quote request this is responding to.
