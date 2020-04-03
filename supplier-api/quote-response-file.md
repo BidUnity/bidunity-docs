@@ -35,6 +35,10 @@ The unique identifier of the quote request this is responding to.
 {% api-method-parameter name="file" type="string" required=true %}
 The PDF file of the quote. The MIME type of the file must be `application/pdf`. Only PDF files are supported.
 {% endapi-method-parameter %}
+
+{% api-method-parameter name="total\_amount" type="number" required=true %}
+The total dollar amount of the quote.
+{% endapi-method-parameter %}
 {% endapi-method-form-data-parameters %}
 {% endapi-method-request %}
 
