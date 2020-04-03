@@ -1,7 +1,7 @@
 ---
 description: >-
-  Allows suppliers to send a quote PDF file through a web service in after
-  receiving a quote request.
+  Allows suppliers to send a PDF file of the quote through a web service in
+  after receiving a quote request.
 ---
 
 # Quote Response File
