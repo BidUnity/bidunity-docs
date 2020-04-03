@@ -19,7 +19,7 @@ Uploads a PDF file of the quote in response to a quote request. The `Content-Typ
 {% api-method-request %}
 {% api-method-headers %}
 {% api-method-parameter name="Authorization" type="string" required=true %}
-Must contain your API key as Base64 encoded string.
+Must contain your API key as Base64 encoded string. See HTTP Basic Auth for details.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="Content-Type" type="string" required=true %}
