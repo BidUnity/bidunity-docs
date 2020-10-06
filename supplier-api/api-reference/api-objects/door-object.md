@@ -166,7 +166,9 @@ The Door object contains the information for the door frame and leaf.
         order code for the component</td>
     </tr>
   </tbody>
-</table>## Example
+</table>
+
+## Example
 
 ```yaml
 {

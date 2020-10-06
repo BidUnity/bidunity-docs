@@ -160,7 +160,9 @@ Some definitions before we get started:
       </td>
     </tr>
   </tbody>
-</table>## Examples
+</table>
+
+## Examples
 
 ### Example \#1: Per each \(i.e. door closer\)
 
