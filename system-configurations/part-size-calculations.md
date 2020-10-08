@@ -6,17 +6,22 @@ A part is assigned a size from a set of formulas called **part use conventions**
 
 For example, a Head component might have the following parts configured:
 
-* 1 stick of head framing, assigned the _Daylight Width_ part use
+* 1 stick of head framing, sized by the _Daylight Width_ part use
 * 4 fabrication screws, assigned the _Per Component_ part use
-* 2 lengths of butyl tape 3/8" x 1/8", assigned the _Component Face Dimension_ part use
+* 2 lengths of butyl tape 3/8" x 1/8", sized by the _Component Face Dimension_ part use
 
-If the elevation drawing contains a Head component that is 30" long with a face dimension of 2", this will result in the following parts being added to the parts list:
+If the elevation drawing contains a Head component that is 30" long with a face dimension of 2", this will result in the following parts being added to the parts list for that instance of the Head component:
 
 * One 30" stick of head framing
 * Four fabrication screws
 * Two 2" lengths of butyl tape
 
 ## Part Use Conventions
+
+Some definitions before we get started:
+
+* **Package** is the thing that is being purchased.
+* A package can contain a **single item** or a **group of items**.
 
 <table>
   <thead>
@@ -33,37 +38,43 @@ If the elevation drawing contains a Head component that is 30" long with a face 
   <tbody>
     <tr>
       <td style="text-align:left">Per Component</td>
-      <td style="text-align:left">One unit is required each time this component is used.</td>
+      <td style="text-align:left">One package is required each time the component is used.</td>
       <td style="text-align:left">Units</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Any component type with a part purchased per each or box.</td>
     </tr>
     <tr>
       <td style="text-align:left">Eight Inches on Center</td>
       <td style="text-align:left">The component&apos;s Length is divided by 8 and rounded up to the nearest
         integer.</td>
       <td style="text-align:left">Units</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Any component type with a part purchased by units or package.</td>
     </tr>
     <tr>
       <td style="text-align:left">Twelve Inches on Center</td>
       <td style="text-align:left">The component&apos;s Length is divided by 12 and rounded up to the nearest
         integer.</td>
       <td style="text-align:left">Units</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Any component type with a part purchased by units or package.</td>
     </tr>
     <tr>
       <td style="text-align:left">Sixteen Inches on Center</td>
       <td style="text-align:left">The component&apos;s Length is divided by 16 and rounded up to the nearest
         integer.</td>
       <td style="text-align:left">Units</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Any component type with a part purchased by units or package.</td>
     </tr>
     <tr>
       <td style="text-align:left">Twenty Four Inches on Center</td>
       <td style="text-align:left">The component&apos;s Length is divided by 24 and rounded up to the nearest
         integer.</td>
       <td style="text-align:left">Units</td>
+      <td style="text-align:left">Any component type with a part purchased by units or package.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Custom Inches on Center</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left">Units</td>
+      <td style="text-align:left">Any component type with a part purchased by units or package.</td>
     </tr>
     <tr>
       <td style="text-align:left">Units Per Square Foot</td>

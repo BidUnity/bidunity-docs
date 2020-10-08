@@ -86,10 +86,7 @@ Some definitions before we get started:
       <td style="text-align:left"><code>package_quantity_to_order</code>
       </td>
       <td style="text-align:left">number</td>
-      <td style="text-align:left">
-        <p>The quantity of the package being ordered.</p>
-        <p>item_measurement_type - Describes what is being ordered.</p>
-      </td>
+      <td style="text-align:left">The quantity of the package being ordered.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>item_measurement_type</code>
@@ -110,8 +107,9 @@ Some definitions before we get started:
           purchased individually.</p>
         <p>Examples:</p>
         <ul>
-          <li>If purchasing a box of 4 stock lengths then the value would be 4.</li>
-          <li>If purchasing a box of 200 screws then the value would be 200.</li>
+          <li>If purchasing a single door handle then the value is 1.</li>
+          <li>If purchasing a box of 4 stock lengths then the value is 4.</li>
+          <li>If purchasing a box of 200 screws then the value is 200.</li>
         </ul>
       </td>
     </tr>
