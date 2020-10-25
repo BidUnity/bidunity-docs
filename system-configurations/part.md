@@ -1,6 +1,6 @@
 # Part
 
-The Part object can represent many different types of items, such as items purchased individually, in a box, as a stock length, area, or volume. A part is can be purchased in different ways.
+The Part object can represent many different types of items, such as items purchased individually, in a box, as a stock length, area, or volume. This is called the Purchase Type. Each part is also assigned to an Account such as Caulking, Framing, etc.
 
 ## Terminology
 
@@ -23,7 +23,7 @@ Some definitions before we get started:
 
 ## Examples
 
-The following table shows examples of common parts.
+The following table shows examples of common parts and how they would be configured:
 
 | Example | Purchase Type | Items per Package | Item Size |
 | :--- | :--- | :--- | :--- |

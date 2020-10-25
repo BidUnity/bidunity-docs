@@ -18,8 +18,8 @@
 
 * [Overview](system-configurations/system-config-overview.md)
 * [Component Types](system-configurations/component-types.md)
-* [Part Size Calculations](system-configurations/part-size-calculations.md)
 * [Part](system-configurations/part.md)
+* [Part Size Calculations](system-configurations/part-size-calculations.md)
 
 ## Mobile App
 
