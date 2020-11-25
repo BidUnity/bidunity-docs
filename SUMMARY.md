@@ -10,9 +10,10 @@
 
 * [Elevation Drawings](drawings/elevation-drawings.md)
 
-## Cut List
+## Part & Cut Lists <a id="part-lists"></a>
 
-* [Cut List](cut-list/cut-list.md)
+* [Packing Lists](part-lists/packing-lists.md)
+* [Cut List](part-lists/cut-list.md)
 
 ## System Configurations
 
