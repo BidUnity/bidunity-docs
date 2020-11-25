@@ -5,6 +5,9 @@
 ## Getting Started
 
 * [Getting Started](getting-started/getting-started.md)
+* [Projects](getting-started/projects.md)
+* [Proposals](getting-started/proposals.md)
+* [Deep Dive](getting-started/deep-dive.md)
 
 ## Drawings
 
@@ -13,8 +16,8 @@
 ## Part & Cut Lists <a id="part-lists"></a>
 
 * [Optimized Cut List](part-lists/cut-list.md)
-* [Packing Lists](part-lists/packing-lists.md)
 * [Glass Lists](part-lists/glass-lists.md)
+* [Packing Lists](part-lists/packing-lists.md)
 
 ## System Configurations
 

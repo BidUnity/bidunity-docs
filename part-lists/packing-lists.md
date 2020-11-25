@@ -93,6 +93,16 @@ See the following example:
     </tr>
     <tr>
       <td style="text-align:center">6</td>
+      <td style="text-align:left">10C548 | 1.5Mil</td>
+      <td style="text-align:left">
+        <p>Blue Max Protective Film</p>
+        <p>Total area: 221 sq ft</p>
+      </td>
+      <td style="text-align:center">18</td>
+      <td style="text-align:center">18</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">7</td>
       <td style="text-align:left">Dymonic FC</td>
       <td style="text-align:left">
         <p>Caulking: Perimeter Sealant, Sausages (By Volume)</p>
@@ -107,6 +117,8 @@ See the following example:
 ## Cut Size Packing List
 
 This list is for shipping some pre-cut material and some parts in stock form. Parts configured to be cut will show their cut sizes, with the quantity at each size \(see example in item \#1 below\). Only parts purchased by [stock length](../system-configurations/part.md#purchase-types) can be configured to be cut \(which also lists those parts on the optimized [cut list](cut-list.md)\); all other parts will appear in stock form, just as on the Stock Material Packing List.
+
+If a the same part is being shipped in both stock form and cut size form, these will be listed as separate line items.
 
 See the following example:
 
