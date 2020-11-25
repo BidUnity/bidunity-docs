@@ -32,8 +32,9 @@ The following table shows examples of common parts and how they would be configu
 | A bumper threshold for 96" | Total Length | N/A | N/A |
 | A stock length of head/sill/jamb at 288", sold individually | Stock Length | 1 | 288" |
 | A box of stock lengths of aluminum, containing 4 lengths at 288" | Stock Length | 4 | 288" |
+| A roll of masking tape, 180 ft, sold individually | Stock Length, Spliceable | 1 | 2160" |
 | A box of vinyl rolls, containing 10 rolls at 120" | Stock Length, Spliceable | 10 | 120" |
 | 500 square feet of glass | Total Area | N/A | N/A |
-| A tube of caulking containing 595 mL, sold individually | Container Volume | 1 | 595 mL |
-| A box of caulking containing 16 sausages, with each sausage containing 20 mL of caulking \(total of 320 mL for the box\) | Container Volume | 16 | 20 mL |
+| A sausage of caulking containing 595 mL, sold individually | Container Volume | 1 | 595 mL |
+| A box of caulking containing 16 tubes, with each tube containing 20 mL of caulking \(total of 320 mL for the box\) | Container Volume | 16 | 20 mL |
 

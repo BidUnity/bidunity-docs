@@ -19,7 +19,7 @@ There are a number of different component types that are supported:
 * Left Receptor
 * Right Receptor
 * Column/Section
-* Elevation
+* Overall Elevation
 
 
 

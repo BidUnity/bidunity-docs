@@ -106,7 +106,7 @@ See the following example:
 
 ## Cut Size Packing List
 
-This list is for shipping some pre-cut material and some parts in stock form. Parts configured to be cut will show their cut sizes, with the quantity at each size \(see example in item \#1 below\). Only parts purchased by stock length can be configured to be cut \(which also lists those parts on the optimized [cut list](cut-list.md)\); all other parts will appear in stock form, just as on the [Stock Material Packing List ](packing-lists.md#stock-material-packing-list)\(above\).
+This list is for shipping some pre-cut material and some parts in stock form. Parts configured to be cut will show their cut sizes, with the quantity at each size \(see example in item \#1 below\). Only parts purchased by [stock length](../system-configurations/part.md#purchase-types) can be configured to be cut \(which also lists those parts on the optimized [cut list](cut-list.md)\); all other parts will appear in stock form, just as on the Stock Material Packing List.
 
 See the following example:
 

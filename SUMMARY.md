@@ -12,8 +12,9 @@
 
 ## Part & Cut Lists <a id="part-lists"></a>
 
+* [Optimized Cut List](part-lists/cut-list.md)
 * [Packing Lists](part-lists/packing-lists.md)
-* [Cut List](part-lists/cut-list.md)
+* [Glass Lists](part-lists/glass-lists.md)
 
 ## System Configurations
 
