@@ -49,6 +49,7 @@
 ## Settings
 
 * [User Settings](settings/user-settings.md)
+* [Company Settings](settings/company-settings.md)
 
 ---
 

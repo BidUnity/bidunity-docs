@@ -6,6 +6,10 @@ description: >-
 
 # User Settings
 
+## Name, Email & Phone
+
+You can view and change your name and phone number from your profile. If you want to change your email address, please email support@bidunity.com
+
 ## Time Zone
 
 Each user can choose the time zone for which to display dates and times. By default, this is based off of your web browser, but you can select which time zone you want to use. If you move to a different geographical region then you will want to update this setting.
@@ -20,7 +24,7 @@ Part sizes/quantities can be shown in different units of measure. Lengths, areas
 
 Each user can choose from the following units of measure for displaying lengths:
 
-* Millimeters \(mm\)
+* Millimeters \(i.e. 20.3 mm\)
 * Decimal Inches \(i.e. 5.25"\)
 * Inches with fractions: 16ths UNREDUCED \(i.e. 4/16"\)
 * Inches with fractions: 16ths \(i.e. 3/16" or 1/4"\)
