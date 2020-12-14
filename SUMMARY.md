@@ -46,6 +46,10 @@
     * [Finish Colors](supplier-api/api-reference/api-types/finish-color-types.md)
     * [Finish Types](supplier-api/api-reference/api-types/finish-types.md)
 
+## Settings
+
+* [User Settings](settings/user-settings.md)
+
 ---
 
 * [Back to BidUnity](https://bidunity.com)
