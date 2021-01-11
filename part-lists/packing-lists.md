@@ -116,7 +116,7 @@ See the following example:
 
 ## Cut Size Packing List
 
-This list is for shipping some pre-cut material and some parts in stock form. Parts configured to be cut will show their cut sizes, with the quantity at each size \(see example in item \#1 below\). Only parts purchased by [stock length](../system-configurations/part.md#purchase-types) can be configured to be cut \(which also lists those parts on the optimized [cut list](cut-list.md)\); all other parts will appear in stock form, just as on the Stock Material Packing List.
+This list is for shipping some pre-cut material and some parts in stock form. Parts configured to be cut will show their cut sizes, with the quantity at each size \(see example in item \#1 below\). Only parts purchased by [stock length](../system-configurations/part.md#purchase-types) or [stock length spliceable](../system-configurations/part.md#purchase-types) can be configured to be cut \(which also lists those parts on the optimized [cut list](cut-list.md)\); all other parts will appear in stock form, just as on the Stock Material Packing List.
 
 If a the same part is being shipped in both stock form and cut size form, these will be listed as separate line items.
 
@@ -248,12 +248,4 @@ See the following example:
     </tr>
   </tbody>
 </table>
-
-
-
-
-
-
-
-
 
