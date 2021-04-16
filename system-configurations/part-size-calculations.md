@@ -126,14 +126,14 @@ Some definitions before we get started:
       <td style="text-align:left">Per unit/box</td>
     </tr>
     <tr>
-      <td style="text-align:left">Opening Height</td>
+      <td style="text-align:left">Opening Size Height</td>
       <td style="text-align:left">The assigned value is equal to the elevation height.</td>
       <td style="text-align:left">Length</td>
       <td style="text-align:left">Any</td>
       <td style="text-align:left">By length</td>
     </tr>
     <tr>
-      <td style="text-align:left">Opening Width</td>
+      <td style="text-align:left">Opening Size Width</td>
       <td style="text-align:left">The assigned value is equal to the elevation width.</td>
       <td style="text-align:left">Length</td>
       <td style="text-align:left">Any</td>
