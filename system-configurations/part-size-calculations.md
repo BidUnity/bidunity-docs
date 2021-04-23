@@ -78,7 +78,8 @@ Some definitions before we get started:
     </tr>
     <tr>
       <td style="text-align:left">Custom Inches on Center</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">The component&apos;s Length is divided by a custom number and rounded
+        up to the nearest integer.</td>
       <td style="text-align:left">Units</td>
       <td style="text-align:left">Any</td>
       <td style="text-align:left">Per unit/box</td>
