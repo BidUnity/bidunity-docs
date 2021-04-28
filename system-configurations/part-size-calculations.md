@@ -119,7 +119,7 @@ Some definitions before we get started:
         <td style="text-align:left">Per unit/box</td>
     </tr>
     <tr>
-      <td style="text-align:left">Per Perimeter Contact</td>
+      <td style="text-align:left">Per Opening Side</td>
       <td style="text-align:left">One unit is required for each perimeter side the receptor comes into contact
         with.</td>
       <td style="text-align:left">Units</td>
@@ -142,21 +142,21 @@ Some definitions before we get started:
     </tr>
     <tr>
       <td style="text-align:left">Opening Perimeter</td>
-      <td style="text-align:left">( Opening Height + Opening Width ) * 2</td>
+      <td style="text-align:left">The total length of the perimeter.</td>
       <td style="text-align:left">Length</td>
       <td style="text-align:left">Any</td>
       <td style="text-align:left">By length</td>
     </tr>
     <tr>
       <td style="text-align:left">Overall Frame Height</td>
-      <td style="text-align:left">Opening Height - Top Shim Space - Bottom Shim Space</td>
+      <td style="text-align:left">The Opening Height minus the top and bottom shim spaces.</td>
       <td style="text-align:left">Length</td>
       <td style="text-align:left">Any</td>
       <td style="text-align:left">By length</td>
     </tr>
     <tr>
       <td style="text-align:left">Overall Frame Width</td>
-      <td style="text-align:left">Opening Width - Left Shim Space - Right Shim Space</td>
+      <td style="text-align:left">The Opening Width minus the left and right shim spaces.</td>
       <td style="text-align:left">Length</td>
       <td style="text-align:left">Any</td>
       <td style="text-align:left">By length</td>
@@ -181,12 +181,12 @@ Some definitions before we get started:
     </tr>
     <tr>
       <td style="text-align:left">Horizontal Assembly Width</td>
-      <td style="text-align:left">Opening Width - Left Shim Space - Right Shim Space - Left Receptor Deduction
-        - Right Receptor Deduction</td>
-      <td style="text-align:left">Length</td>
-      <td style="text-align:left">Any (but vertical components will return their face dimension)</td>
+      <td style="text-align:left">The Opening Width minus the left and right shim spaces and receptor deductions.</td>
       <td
-      style="text-align:left">By length</td>
+      style="text-align:left">Length</td>
+        <td style="text-align:left">Any (but vertical components will return their face dimension)</td>
+        <td
+        style="text-align:left">By length</td>
     </tr>
     <tr>
       <td style="text-align:left">Component Face Dimension</td>
@@ -213,11 +213,12 @@ Some definitions before we get started:
     </tr>
     <tr>
       <td style="text-align:left">System Depth</td>
-      <td style="text-align:left">TODO: Eliminate this and instead use the &quot;Component Thickness&quot;
-        on Overall Elevation component.</td>
-      <td style="text-align:left">Length</td>
-      <td style="text-align:left">Any</td>
-      <td style="text-align:left">By length</td>
+      <td style="text-align:left"><em>(deprecated) </em>The product system&apos;s depth. Instead you should
+        use the Component Thickness on the Overall Elevation component.</td>
+      <td
+      style="text-align:left">Length</td>
+        <td style="text-align:left">Any</td>
+        <td style="text-align:left">By length</td>
     </tr>
     <tr>
       <td style="text-align:left">Interior Sealant Height</td>
@@ -243,7 +244,7 @@ Some definitions before we get started:
     </tr>
     <tr>
       <td style="text-align:left">Daylight Perimeter</td>
-      <td style="text-align:left">(Daylight Width * 2) + (Daylight Height * 2)</td>
+      <td style="text-align:left">The sum of Daylight Width * 2 and Daylight Height * 2.</td>
       <td style="text-align:left">Length</td>
       <td style="text-align:left">Any</td>
       <td style="text-align:left">By length</td>
@@ -258,69 +259,76 @@ Some definitions before we get started:
     </tr>
     <tr>
       <td style="text-align:left">Vertical Component Vinyl Length</td>
-      <td style="text-align:left">Behaves Differently Depending on the Component Because it Returns the
-        Total Daylight Height of All Rows in the Component
-        <br />For elevations and glass there can be only one row. Vertical section components
-        can have multiple rows.
-        <br />Returns the total daylight height of all rows in the component +
-        <br />The total daylight height of all rows in the component * The Product System&apos;s <em>Add Per Foot Vinyl</em> *
-        2</td>
+      <td style="text-align:left">
+        <p><b>TODO</b>
+        </p>
+        <p>Behaves Differently Depending on the Component Because it Returns the
+          Total Daylight Height of All Rows in the Component
+          <br />For elevations and glass there can be only one row. Vertical section components
+          can have multiple rows.
+          <br />Returns the total daylight height of all rows in the component +
+          <br />The total daylight height of all rows in the component * The Product System&apos;s <em>Add Per Foot Vinyl</em> *
+          2</p>
+      </td>
       <td style="text-align:left">Length</td>
       <td style="text-align:left">Any</td>
       <td style="text-align:left">By length</td>
     </tr>
     <tr>
       <td style="text-align:left">Glass Perimeter Vinyl</td>
-      <td style="text-align:left">The Sum of Horizontal and Vertical Vinyl</td>
+      <td style="text-align:left">The Sum of Horizontal and Vertical Vinyl.</td>
       <td style="text-align:left">Length</td>
       <td style="text-align:left">Any</td>
       <td style="text-align:left">By length</td>
     </tr>
     <tr>
       <td style="text-align:left">Glass Height</td>
-      <td style="text-align:left">Daylight Height + The Product System&apos;s <em>Actual Height minus Daylight Height</em>
-      </td>
-      <td style="text-align:left">Length</td>
-      <td style="text-align:left">Any</td>
-      <td style="text-align:left">By length</td>
+      <td style="text-align:left">The Daylight Height plus the Vertical Glass Bite of the Product System.</td>
+      <td
+      style="text-align:left">Length</td>
+        <td style="text-align:left">Any</td>
+        <td style="text-align:left">By length</td>
     </tr>
     <tr>
       <td style="text-align:left">Glass Width</td>
-      <td style="text-align:left">Daylight Width + The Product System&apos;s <em>Actual Width minus Daylight Width</em>
-      </td>
-      <td style="text-align:left">Length</td>
-      <td style="text-align:left">Any</td>
-      <td style="text-align:left">By length</td>
+      <td style="text-align:left">The Daylight Width plus the Horizontal Glass Bite of the Product System.</td>
+      <td
+      style="text-align:left">Length</td>
+        <td style="text-align:left">Any</td>
+        <td style="text-align:left">By length</td>
     </tr>
     <tr>
       <td style="text-align:left">Glass Block Area</td>
-      <td style="text-align:left">Returns the Area Given By Rounding Each of Glass Width and Glass Height
-        Up to the Nearest Even Inch The Length and Width are stored as cut-size
-        dimensions</td>
+      <td style="text-align:left">The area in square inches given by rounding both the glass width and height
+        up to the nearest even inch, and multiplying them together. There is a
+        minimum of 4 square feet for each piece.</td>
       <td style="text-align:left">Area, Length, and Width</td>
       <td style="text-align:left">Any</td>
       <td style="text-align:left">Area</td>
     </tr>
     <tr>
       <td style="text-align:left">Square Feet</td>
-      <td style="text-align:left">The Elevation&apos;s Total Width * The Elevation&apos;s Total Height,
-        converted to square feet.</td>
+      <td style="text-align:left">The area in square feet of the component. Supports Overall Elevation,
+        Vertical Section, or Glass components.</td>
       <td style="text-align:left">Area</td>
       <td style="text-align:left">Overall Elevation, Glass, Vertical Section</td>
       <td style="text-align:left">Area</td>
     </tr>
     <tr>
       <td style="text-align:left">Caulk Joint Depth</td>
-      <td style="text-align:left">The Caulk Joint Depth is 1/2 of the shim space if this is less than 1/4,
-        then 1/4 if this is more than 3/8, then 3/8. This is used to calculate
-        the volume of caulk joints.</td>
+      <td style="text-align:left">
+        <p><b>TODO:</b> Does this exist anymore?</p>
+        <p>The Caulk Joint Depth is 1/2 of the shim space if this is less than 1/4,
+          then 1/4 if this is more than 3/8, then 3/8. This is used to calculate
+          the volume of caulk joints.</p>
+      </td>
       <td style="text-align:left">Length</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Custom Length</td>
-      <td style="text-align:left">Enter the length (in inches) of the part to include and set the quantity
+      <td style="text-align:left">Specify the length (in inches) of the part to include and set the quantity
         at that length.</td>
       <td style="text-align:left">Length</td>
       <td style="text-align:left">Any</td>
@@ -331,7 +339,7 @@ Some definitions before we get started:
       <td style="text-align:left">Daylight Perimeter *
         <br />(Product System&apos;s <em>Structural Sealant Width)</em> *
         <br />(Product System&apos;s <em>Structural Sealant Depth).</em>
-        <br />This Result is Converted to mL and multiplied by 1.25 to allow for waste.</td>
+        <br />This result is converted to mL and multiplied by 1.25 to allow for waste.</td>
       <td
       style="text-align:left">Volume</td>
         <td style="text-align:left">Any</td>
@@ -357,7 +365,7 @@ Some definitions before we get started:
         <br />(Product System&apos;s <em>Interior Sealant Height</em> * Caulk Joint Depth
         @ Left * Left Shim Space) +
         <br />(Opening Width * Caulk Joint Depth @ Bottom * Bottom Shim Space)
-        <br />Again, the result is converted to mL</td>
+        <br />The result is converted to mL.</td>
       <td style="text-align:left">Volume</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
