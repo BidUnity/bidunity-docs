@@ -2,6 +2,8 @@
 
 A part is assigned a size from a set of formulas called **part use conventions** \(or "part use" for short\). These are meant to represent different ways the part may be _used_ in the component. Each part use returns a value calculated using attributes of the component.
 
+Components have three dimensions: width, height, and depth. Each part 
+
 ### Example
 
 For example, a Head component might have the following parts configured:
