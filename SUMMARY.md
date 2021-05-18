@@ -25,7 +25,10 @@
 * [Component Types](system-configurations/component-types.md)
 * [Parts](system-configurations/part.md)
 * [Part Size Calculations](system-configurations/part-size-calculations.md)
-* [Doors](system-configurations/doors.md)
+* [Doors](system-configurations/doors/README.md)
+  * [Door Frames](system-configurations/doors/door-frames.md)
+  * [Door Leafs](system-configurations/doors/door-leafs.md)
+  * [Door Components](system-configurations/doors/door-components.md)
 
 ## Mobile App
 
